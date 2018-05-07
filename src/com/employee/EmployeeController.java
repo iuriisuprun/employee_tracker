@@ -32,13 +32,13 @@ public class EmployeeController {
 
 	public void loadEmployees() {
 
-		logger.info("Loading employees");
+		logger.info("Loading employees ");
 		
 		employees.clear();
 
 		try {
 			
-			// get all employees from database
+			// get all employees from database 
 			employees = employeeDbUtil.getEmployees();
 			
 		} catch (Exception exc) {
