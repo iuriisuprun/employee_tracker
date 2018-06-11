@@ -66,11 +66,11 @@ public class EmployeeDbUtil {
 				String phoneNumber = myRs.getString("phone_number");
 				String department = myRs.getString("department");
 
-				// create new student object
+				// create new employee object
 				Employee tempEmployee = new Employee(id, firstName, lastName,
 						email, phoneNumber, department);
 
-				// add it to the list of students
+				// add it to the list of employees
 				employees.add(tempEmployee);
 			}
 			
